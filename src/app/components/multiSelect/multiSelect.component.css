@@ -1,0 +1,32 @@
+:host /deep/ .c-label{
+  padding: 5px;
+  background: #3189e4
+}
+:host /deep/ .c-token{
+  background: #3189e4 !important;
+}
+:host /deep/ .fa-remove {
+  margin-top: 7px;
+}
+:host /deep/ .dropdown-list{
+  font-size: 14px;
+}
+:host /deep/ .list-filter input{
+  font-size: 14px;
+  width: 93% !important;
+}
+:host /deep/ .selected-list .c-btn{
+  width: 96% !important;
+}
+:host /deep/ .dropdown-list{
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 600px) {
+  :host /deep/ .list-filter input{
+    font-size: 14px;
+    width: 88% !important;
+  }
+  :host /deep/ .selected-list .c-btn{
+    width: 93% !important;
+  }
+}
